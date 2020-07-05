@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class SourceFile {
+    constructor(url, source, formattedSource, mapping) {
+        this.url = url;
+        this.source = source;
+        this.formattedSource = formattedSource;
+        this.mapping = mapping;
+    }
+}
+exports.default = SourceFile;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic291cmNlX2ZpbGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvdmlld2VyL21vZGVsL3NvdXJjZV9maWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUE7SUFDRSxZQUNrQixHQUFXLEVBQ1gsTUFBYyxFQUNkLGVBQXVCLEVBQ3ZCLE9BQStCO1FBSC9CLFFBQUcsR0FBSCxHQUFHLENBQVE7UUFDWCxXQUFNLEdBQU4sTUFBTSxDQUFRO1FBQ2Qsb0JBQWUsR0FBZixlQUFlLENBQVE7UUFDdkIsWUFBTyxHQUFQLE9BQU8sQ0FBd0I7SUFBRyxDQUFDO0NBQ3REO0FBTkQsNkJBTUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0Zvcm1hdHRlclNvdXJjZU1hcHBpbmd9IGZyb20gJy4vLi4vZm9ybWF0dGVyJztcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgU291cmNlRmlsZSB7XG4gIGNvbnN0cnVjdG9yKFxuICAgIHB1YmxpYyByZWFkb25seSB1cmw6IHN0cmluZyxcbiAgICBwdWJsaWMgcmVhZG9ubHkgc291cmNlOiBzdHJpbmcsXG4gICAgcHVibGljIHJlYWRvbmx5IGZvcm1hdHRlZFNvdXJjZTogc3RyaW5nLFxuICAgIHB1YmxpYyByZWFkb25seSBtYXBwaW5nOiBGb3JtYXR0ZXJTb3VyY2VNYXBwaW5nKSB7fVxufSJdfQ==
